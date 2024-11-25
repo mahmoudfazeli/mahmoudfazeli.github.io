@@ -1,13 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #007BFF;
+  --secondary-color: #009688;
+  --font-heading: 'Roboto', sans-serif;
+  --font-technical: 'Fira Code', monospace;
+}
+
+/* Custom body styles */
 body {
+  @apply bg-gray-50 text-gray-800; /* Tailwind utility for background and text color */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-heading);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Custom code block styles */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: var(--font-technical);
+  @apply bg-gray-100 text-red-500 px-1 rounded; /* Add Tailwind utilities for styling */
+}
+
+pre {
+  font-family: var(--font-technical);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+/* Button hover scaling effect */
+button:hover, a:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }

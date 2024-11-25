@@ -1,0 +1,215 @@
+{
+    "name": "Mahmoud Fazeli",
+    "title": "AI Engineer / Data Analyst / Prompt Engineer",
+    "location": "Griesheim, Germany",
+    "photo": {
+        "path": "photos/mahmoud_fazeli.jpg",
+        "alt_text": "Professional headshot of Mahmoud Fazeli"
+    },
+    "contact": {
+        "email": { "text": "fazeli.mahmoud89@gmail.com", "type": "link", "url": "mailto:fazeli.mahmoud89@gmail.com" },
+        "linkedin": { "text": "linkedin.com/in/mahmoud-fazeli", "type": "link", "url": "https://www.linkedin.com/in/mahmoud-fazeli-034654103" },
+        "github": { "text": "github.com/mahmoudfazeli", "type": "link", "url": "https://github.com/mahmoudfazeli" }
+    },
+    "summary": {
+        "content": "AI Engineer with 4+ years of experience in Generative AI, Large Language Models (LLMs), NLP, and deep learning. Proficient in Python, TensorFlow, PyTorch, and prompt engineering, with a successful track record of deploying advanced AI solutions in business and research environments. Expertise in using tools like LangChain, LlamaIndex, and Azure to build scalable, data-augmented AI applications. Familiar with popular tools and trends like vector databases (e.g., Pinecone) and large-scale LLM deployments. Recognized for creating AI-driven solutions that streamline business processes, with extensive experience in leading cross-functional projects. Awarded **Employee of the Quarter (Q3 2024)** for spearheading impactful AI initiatives that optimized company performance. Passionate about continuous innovation and learning in AI technologies.",
+        "highlight": { "text": "Awarded Employee of the Quarter (Q3 2024)", "type": "bold" }
+    },
+    "skills": {
+        "programming_languages": ["Python", "C#.NET", "R"],
+        "ml_frameworks": ["TensorFlow", "PyTorch", "Scikit-Learn"],
+        "generative_ai_tools": ["LangChain", "LlamaIndex", "OpenAI GPT models", "Azure OpenAI", "HuggingFace"],
+        "data_analysis_tools": ["Pandas", "NumPy", "Matplotlib", "SQL", "PostgreSQL", "Excel"],
+        "cloud_platforms": ["Azure", "AWS", "Docker", "Hadoop"],
+        "other_tools": ["LangChain", "Information Retrieval", "ChatGPT", "Pinecone"],
+        "languages": {
+            "English": "Fluent",
+            "German": "Upper-Intermediate",
+            "Persian": "Native",
+            "Italian": "Beginner"
+        }
+    },
+    "work_experience": [
+        {
+            "role": { "text": "AI Engineer", "type": "bold" },
+            "organization": "CROWDCONSULTANTS",
+            "dates": { "start": "March 2023", "end": "Present" },
+            "responsibilities": [
+                "Developed LLM-based chatbots to enhance customer engagement and improve service metrics.",
+                { "text": "Built an intelligent search system using Azure Functions, OpenAI embeddings, and LangChain", "type": "bold" },
+                "Implemented error-handling and logging mechanisms to ensure system reliability and robustness.",
+                { "text": "Earned Employee of the Quarter (Q3 2024)", "type": "bold" }
+            ],
+            "technologies": ["Azure Functions", "LangChain", "OpenAI", "Python", "Docker", "Pinecone"]
+        },
+        {
+            "role": { "text": "AI Mentor and Contributor", "type": "bold" },
+            "organization": "DPS by UnternehmerTUM",
+            "dates": { "start": "January 2023", "end": "Present" },
+            "responsibilities": [
+                "Conducted workshops on fine-tuning LLMs, emphasizing rapid prototyping of AI features for real-world applications.",
+                { "text": "Developed VDPS.AI, a Retrieval-Augmented Generation (RAG) chatbot", "type": "bold" },
+                "Contributed to open-source projects to foster innovation in AI.",
+                { "text": "Delivered 5 workshops", "type": "numbered", "details": "See Workshops and Presentations" }
+            ],
+            "technologies": ["Python", "OpenAI", "LangChain", "GitHub"]
+        },
+        {
+            "role": { "text": "Fellow - AI to Amplify", "type": "bold" },
+            "organization": "Goethe-Institut e.V.",
+            "dates": { "start": "May 2023", "end": "August 2023" },
+            "responsibilities": [
+                "Created the TELOS Project using the Socratic Five Whys Method to support users in analyzing and resolving complex problems.",
+                "Advocated for AI in global inclusion and sustainability."
+            ]
+        },
+        {
+            "role": { "text": "Project Manager", "type": "bold" },
+            "organization": "Mandegar-Saze Construction Company",
+            "dates": { "start": "January 2019", "end": "December 2019" },
+            "responsibilities": [
+                "Coordinated cross-functional teams for engineering projects, building valuable management skills now leveraged in AI endeavors.",
+                "Managed the planning, design, construction, and maintenance of water management and drip irrigation systems."
+            ]
+        },
+        {
+            "role": { "text": "Artificial Intelligence (AI) Engineer", "type": "bold" },
+            "organization": "DPS by UnternehmerTUM",
+            "dates": { "start": "September 2022", "end": "December 2022" },
+            "responsibilities": [
+                { "text": "Designed SaaS software for real-time visualization of manufacturing KPIs for Pfaff", "type": "bold" },
+                "Worked with an agile, cross-functional team using machine learning and data analysis techniques.",
+                "Conducted feasibility tests using design thinking and implemented MVPs with user story mapping."
+            ],
+            "project_link": "https://theinnovator.news/going-digital-how-a-german-family-owned-business-is-transforming-its-product-line/"
+        }
+    ],
+    "projects": [
+        {
+            "name": { "text": "Crowd42 Chatbot", "type": "bold" },
+            "dates": { "start": "March 2023", "end": "Present" },
+            "description": "Developed a cloud-based CV indexing and retrieval system, improving document processing and searchability.",
+            "technologies": ["Azure Functions", "LangChain", "Azure Blob Storage", "Python", "Pymongo", "Pinecone"]
+        },
+        {
+            "name": { "text": "AgenticAICoach", "type": "bold" },
+            "dates": { "start": "October 2024", "end": "Present" },
+            "description": "Collaborated on the AgenticAICoach project to enable collaborative AI agents for scalable coaching of entrepreneurial teams.",
+            "technologies": ["CrewAI", "Python", "YAML"],
+            "project_link": "https://github.com/DigitalProductschool/AgenticAICoach"
+        },
+        {
+            "name": { "text": "VDPS.AI (DPS by UnternehmerTUM)", "type": "bold" },
+            "dates": { "start": "January 2023", "end": "Present" },
+            "description": "Developed a Q&A chatbot for workshops utilizing Retrieval-Augmented Generation (RAG). Focused on improving user engagement and knowledge sharing in educational settings.",
+            "technologies": ["LangChain", "OpenAI", "Python"]
+        },
+        {
+            "name": { "text": "Automatic Surgical Tool and Phase Detection", "type": "bold" },
+            "dates": { "start": "May 2021", "end": "November 2021" },
+            "description": "Achieved competitive results in detecting surgical tools and phases during minimally invasive surgeries. Developed multitask CNN and TCN architectures for real-time object detection and action segmentation.",
+            "technologies": ["TensorFlow", "Python"],
+            "project_link": "https://github.com/mahmoudfazeli/IUNet"
+        },
+        {
+            "name": { "text": "Pfaff's KPI Management Tool", "type": "bold" },
+            "dates": { "start": "September 2022", "end": "December 2022" },
+            "description": "Designed SaaS software to visualize real-time manufacturing KPIs.",
+            "project_link": "https://theinnovator.news/going-digital-how-a-german-family-owned-business-is-transforming-its-product-line/"
+        }
+    ],
+    "workshops": [
+        {
+            "title": { "text": "Introduction to GPT-3 and Finetuned Virtual Assistants", "type": "bold" },
+            "date": "February 9, 2023",
+            "overview": "Explored GPT-3 basics, dataset preparation, and fine-tuning for creating Flask-based virtual assistants.",
+            "technologies": ["GPT-3", "OpenAI CLI", "Flask", "Python"]
+        },
+        {
+            "title": { "text": "Fine-Tuning Large Language Models for Virtual Assistants", "type": "bold" },
+            "date": "June 23, 2023",
+            "overview": "Covered fine-tuning LLMs for domain-specific applications and introduced open-source alternatives.",
+            "technologies": ["GPT-3.5", "Hugging Chat", "Open-Assistant", "h2oGPT"]
+        },
+        {
+            "title": { "text": "Fine-Tuning Large Language Models for Real-World Applications", "type": "bold" },
+            "date": "October 9, 2023",
+            "overview": "Delivered advanced methods for Llama-2 fine-tuning and deployment on AWS Sagemaker.",
+            "technologies": ["Llama-2-7B-bf16-sharded", "Google Colab", "AWS Sagemaker", "Python"]
+        },
+        {
+            "title": { "text": "Retrieval-Augmented Generation (RAG): From Basics to Advanced Applications", "type": "bold" },
+            "date": "April 2, 2024",
+            "overview": "Detailed success criteria and use cases for RAG in customer support and regulatory analysis.",
+            "technologies": ["RAG frameworks", "Information Retrieval", "Generative AI"]
+        },
+        {
+            "title": { "text": "Agentic Multimodal RAG", "type": "bold" },
+            "date": "October 31, 2024",
+            "overview": "Introduced text-image multimodal pipelines for document analysis and healthcare automation.",
+            "technologies": ["Multimodal RAG", "Agentic Systems", "Multimodal LLMs"]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Big Data Management",
+            "institution": "IU International University of Applied Sciences, Germany",
+            "dates": { "start": "March 2020", "end": "April 2022" },
+            "details": "Thesis: \"Automatic Surgical Tool and Phase Detection in Minimally Invasive Procedures\" (Nominated for Best Thesis Award, Grade: 1.7)"
+        },
+        {
+            "degree": "Master of Civil Engineering",
+            "institution": "Politecnico di Milano, Italy",
+            "dates": { "start": "September 2014", "end": "December 2018" },
+            "details": "Thesis: \"Optimum Design of Prestressing of Cylindrical Shells\" (Grade: 95/110)"
+        },
+        {
+            "degree": "Bachelor of Civil Engineering",
+            "institution": "Azad University, ShahreKord, Iran",
+            "dates": { "start": "September 2008", "end": "July 2012" },
+            "details": "Grade: 15.3/20"
+        }
+    ],
+    "certifications": [
+        { "text": "Natural Language Processing (NLP) (Microsoft)", "type": "list" },
+        { "text": "Microsoft Bot Framework", "type": "list" },
+        { "text": "Time Series (Kaggle)", "type": "list" },
+        { "text": "Computer Vision (Kaggle)", "type": "list" },
+        { "text": "Relational Databases and SQL (Stanford Online)", "type": "list" }
+    ],
+    "community_contributions": [
+        {
+            "title": "GitHub Achievements",
+            "details": "Awarded Pull Shark and Starstruck badges for impactful contributions and popular repositories (e.g., \"Finetuned GPT-3 Virtual Assistants\" with 21 stars and 7 forks)."
+        },
+        {
+            "title": "AgenticAICoach (Contributor)",
+            "details": "Collaborated on AgenticAICoach, an open-source project supporting collaborative AI agents for scalable coaching in entrepreneurial environments.",
+            "technologies": ["CrewAI", "Python", "YAML"],
+            "link": "https://github.com/DigitalProductschool/AgenticAICoach"
+        },
+        {
+            "title": "AI Makerspace (Core Contributor)",
+            "details": "Contributed to the rapid prototyping of AI applications, creating blueprint templates for AI Design Thinking and Responsible AI.",
+            "technologies": ["VertexAI", "Docker", "Python"],
+            "link": "https://github.com/DigitalProductschool/AI-Makerspace"
+        }
+    ],
+    "hobbies_and_interests": [
+        "AI Innovation: Exploring advancements in Generative AI, LLMs, and AI applications in creative industries.",
+        "Creative Problem-Solving: Tackling challenging problems through thought experiments and innovative solutions.",
+        "Technology Trends: Staying ahead of emerging tech, including advancements in AI and large-scale deployments."
+    ],
+    "publications": [
+        {
+            "title": { "text": "Rethinking Creative Practices: The Impact of Generative AI on Design, Design Thinking, and Content Creation", "type": "bold" },
+            "date": "July 2023",
+            "collaborators": ["Prof. Dr. Sebastian Löwe", "Dr. Afsaneh Asaei"],
+            "link": {
+                "text": "Read Article",
+                "url": "https://leaks.digitalproductschool.io/rethinking-creative-practices-the-impact-of-generative-ai-on-design-design-thinking-and-content-185a21e1a242",
+                "type": "link"
+            }
+        }
+    ]
+}
